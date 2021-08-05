@@ -23,5 +23,7 @@ src 内の js/css/scss/img ファイルを index.js に出力して dist にコ�
 
 ---
 
-- `npm i -D webpack webpack-cli webpack-dev-server`実行後、`npm run start`でローカルサーバ実行
-- `npx webpack`でコンパイル
+## 確認・コンパイル方法
+
+- `npm i -D webpack webpack-cli webpack-dev-server`実行後、`npm run start`でローカルサーバ実行して確認する
+- `npx webpack`でコンパイルする
