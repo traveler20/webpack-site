@@ -1,3 +1,5 @@
+import "./scss/style.scss";
+
 const myHello = require("./hello");
 console.log(myHello);
 
