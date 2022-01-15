@@ -1,0 +1,1 @@
+(()=>{var e={395:e=>{e.exports="webpack test in hello.js"}},o={};function t(r){var s=o[r];if(void 0!==s)return s.exports;var n=o[r]={exports:{}};return e[r](n,n.exports,t),n.exports}(()=>{const e=t(395);console.log(e),console.log("webpack test in index.js")})()})();
