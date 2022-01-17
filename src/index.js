@@ -1,7 +1,6 @@
-// import 文を使って sub.js ファイルを読み込む。
-import { hello } from "./js/sub";
-// import文を使ってSassファイルを読み込む。
 import "./scss/style.scss";
 
-// sub.jsに定義されたJavaScriptを実行する。
-hello();
+const myHello = require("./hello");
+console.log(myHello);
+
+console.log("webpack test in index.js");
