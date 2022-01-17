@@ -24,6 +24,9 @@ module.exports = {
 	devServer: {
 		contentBase: "dist",
 		open: true,
+		watchContentBase: true,
+		inline: true,
+		hot: true,
 	},
 
 	module: {
