@@ -7,7 +7,6 @@ module.exports = {
 		path: PATH.resolve(__dirname, "dist"),
 		filename: "bundle.js",
 	},
-<<<<<<< HEAD
 
 	// モード値を production に設定すると最適化された状態で、
 	// development に設定するとソースマップ有効でJSファイルが出力される
@@ -23,8 +22,6 @@ module.exports = {
 		hot: true,
 	},
 
-=======
->>>>>>> 9186c3daf603c87c5dd7d16e997f9f6f9c929b8c
 	module: {
 		rules: [
 			{
