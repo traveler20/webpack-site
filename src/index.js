@@ -1,6 +1,7 @@
-import "./scss/style.scss";
+const test = "テスト";
 
-const myHello = require("./hello");
-console.log(myHello);
+console.log(test);
 
-console.log("webpack test in index.js");
+document.getElementById("box").addEventListener("click", function () {
+    alert("this is alert");
+});
